@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mybank.MyBankActivity">
+
+
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:text="Hdfc Bank Account Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/ethfc_banckacct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:text="Axis Bank Account Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/etaxis_banckacct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btnloadbalance"
+        android:text="Get Total Balance"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvtotalbalance"
+        android:layout_marginTop="35dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
